@@ -1,0 +1,8 @@
+INCLUDE options/options.makejail
+
+ARG rabbitmq_tag=13.2
+
+FROM --entrypoint gh+AppJail-makejails/rabbitmq rabbitmq:${rabbitmq_tag}
+
+SYSRC rabbitmq_enable=YES
+SERVICE rabbitmq start
