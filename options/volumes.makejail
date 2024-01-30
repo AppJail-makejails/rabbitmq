@@ -1,0 +1,2 @@
+OPTION volume=rabbitmq-db mountpoint:/var/db/rabbitmq owner:135 group:135 perm:750
+OPTION volume=rabbitmq-log mountpoint:/var/log/rabbitmq owner:135 group:135 perm:750
