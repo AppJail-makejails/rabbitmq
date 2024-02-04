@@ -20,6 +20,13 @@ appjail makejail \
 
 * `rabbitmq_tag` (default: `13.2`): See [#tags](#tags).
 
+### Volumes
+
+| Name           | Owner | Group | Perm  | Type | Mountpoint          |
+| -------------- | ----- | ----- | ----- | ---- | ------------------- |
+| `rabbitmq-db`  | `135` | `135` | `750` |  -   | `/var/db/rabbitmq`  |
+| `rabbitmq-log` | `135` | `135` | `750` |  -   | `/var/log/rabbitmq` |
+
 ## Tags
 
 | Tag     | Arch    | Version        | Type   |
