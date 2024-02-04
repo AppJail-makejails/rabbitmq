@@ -16,7 +16,7 @@ appjail makejail \
     -o nat
 ```
 
-## Arguments
+### Arguments
 
 * `rabbitmq_tag` (default: `13.2`): See [#tags](#tags).
 
