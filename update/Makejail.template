@@ -1,6 +1,6 @@
 INCLUDE options/options.makejail
 
-ARG rabbitmq_tag=13.4
+ARG rabbitmq_tag=%%TAG1%%
 ARG rabbitmq_ajspec=gh+AppJail-makejails/rabbitmq
 
 FROM --entrypoint "${rabbitmq_ajspec}" rabbitmq:${rabbitmq_tag}
