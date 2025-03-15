@@ -18,7 +18,7 @@ appjail makejail \
 
 ### Arguments
 
-* `rabbitmq_tag` (default: `13.4`): See [#tags](#tags).
+* `rabbitmq_tag` (default: `13.5`): See [#tags](#tags).
 * `rabbitmq_ajspec` (default: `gh+AppJail-makejails/rabbitmq`): Entry point where the `appjail-ajspec(5)` file is located.
 
 ### Volumes
@@ -32,5 +32,5 @@ appjail makejail \
 
 | Tag     | Arch    | Version        | Type   |
 | ------- | ------- | -------------- | ------ |
-| `13.4`  | `amd64` | `13.4-RELEASE` | `thin` |
+| `13.5`  | `amd64` | `13.5-RELEASE` | `thin` |
 | `14.2`  | `amd64` | `14.2-RELEASE` | `thin` |
