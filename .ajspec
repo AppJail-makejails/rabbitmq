@@ -1,16 +1,17 @@
 tags+: 13.5
 13.5.arch: amd64
 13.5.name: "rabbitmq"
-13.5.timestamp.amd64: 1764322403
-13.5.sum.amd64: 4838a4397d03897c8a7f33643deabd88422990e73284bf794ea957234104c859
-13.5.size.amd64: 144922172
+13.5.timestamp.amd64: 1766096810
+13.5.sum.amd64: 4ca450517e6b6a30049b591ab476e4c7f7b5a5c201c314c90c4d95854a680231
+13.5.size.amd64: 144853717
 13.5.source.amd64: "https://images.all101bsd.download/rabbitmq/13.5-amd64-image.appjail"
 13.5.source.amd64+: "http://appjail.hpc.at/rabbitmq/13.5-amd64-image.appjail"
 tags+: 14.3
 14.3.arch: amd64
 14.3.name: "rabbitmq"
-14.3.timestamp.amd64: 1764322551
-14.3.sum.amd64: cdc7eda534de31e1b7de825dbcce31517b7c03d436ad55b7929835d844fbeb92
-14.3.size.amd64: 144654962
+14.3.timestamp.amd64: 1766096978
+14.3.sum.amd64: 920593c0aba7315d7ad14c1f129fb2dbb83f2547244c3b4bed4ac3acabec7cc4
+14.3.size.amd64: 145130605
 14.3.source.amd64: "https://images.all101bsd.download/rabbitmq/14.3-amd64-image.appjail"
 14.3.source.amd64+: "http://appjail.hpc.at/rabbitmq/14.3-amd64-image.appjail"
+maintenance: "This image is uploading, please wait a moment and try again. If you are importing this image using a Makejail that has the '--<name>_ajspec' argument, you can use the 'reproduce' method to use 'appjail-reproduce'. See 'appjail-image(5)' for details."
